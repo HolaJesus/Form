@@ -3,53 +3,71 @@ body {
     border-radius: 500px;
 }
 
-.fuenteH{
-    color: red;
-}
-/* 
-.fuenteHfondo{
-    background-color: ;
-} */
-p {
-    color: tomato;
+.fuenteH1 {
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    background-color: yellow;
+    border-radius: 20px;
 }
 
+.fuenteH2 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    background-color: orangered;
+    border-radius: 20px;
 
-/* .formulario{
-    background: url(Imagenes/img1.webp);
-    height: auto;
-    margin: 0%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
+
+}
+
+.p1 {
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 20px;
+    width: 400px;
+
+
+}
+
+.p2 {
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 20px;
+    width: 400px;
+
+
+}
 
 .fuenteBlanca {
     color: black;
 }
 
-legend{
-    color: aliceblue;
-}
-.legend1{
-    color: red;
+
+.legend1 {
+    color: black;
+    font-size: 30px;
+    background-color: orangered;
+    border-radius: 20px;
+
 }
 
-small{
-    color: tomato;
-    
-}
-
-label{
+label {
     size: 40;
 }
 
-.Registro{
-    border: 10px solid red; 
-    width: 400px;
+.Registro {
+    border: 10px solid red;
+    width: 440px;
     margin: 0% auto;
     background-color: white;
-    opacity: 89%;
+    opacity: 85%;
     text-align: center;
     font-size: 25px;
 }
