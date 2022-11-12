@@ -3,7 +3,7 @@ body {
     border-radius: 500px;
 }
 
-.fuenteH, .fuenteH h1{
+.fuenteH{
     color: red;
 }
 /* 
@@ -25,4 +25,12 @@ p {
 
 .fuenteBlanca {
     color: white;
+}
+
+legend{
+    color: aliceblue;
+}
+
+small{
+    color: tomato;
 }
