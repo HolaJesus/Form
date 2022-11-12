@@ -15,77 +15,80 @@
 
         <h1 class="fuenteH">Formulario Pilotos F1</h1>
         <p> Ingreses sus datos correctamente para su registro</p><br>
+        <div class="Registro">
+            <form>
 
-        <form>
+                <fieldset>
+                    <legend class="legend1">Registro de Usuarios</legend><br>
+                    <label class="fuenteBlanca" for="firstName">Nombres:</label><br>
+                    <input type="text" name="firstName" id="firstname" autofocus required pattern="[a-zA-Z]{2,10}"
+                        placeholder="ingrese su nombre"><br><br>
+                    <label class="fuenteBlanca" for="firstName">Apellido:</label><br>
+                    <input type="firstName" name="lastName" id="lastname" required pattern="[A-Za-z]{2,40}"
+                        placeholder="ingrese su apellido"><br><br>
 
-            <fieldset>
-                <legend>Registro de Usuarios</legend><br>
-                <label class="fuenteBlanca" for="firstName">Nombres:</label><br>
-                <input type="text" name="firstName" id="firstname"  autofocus required pattern="[a-zA-Z]{2,10}"
-                    placeholder="ingrese su nombre"><br><br>
-                <label class="fuenteBlanca" for="firstName">Apellido:</label><br>
-                <input type="firstName" name="lastName" id="lastname" required pattern="[A-Za-z]{2,40}"
-                    placeholder="ingrese su apellido"><br><br>
-                <label class="fuenteBlanca" for="Email"> Correo Electronico:</label><br>
-                <input type="email" name="Email" id="Email" required pattern="[A-Za-z ]{10,40}"
-                    placeholder="Ingrese correo"> <br><br>
-                <label class="fuenteBlanca" for="Direccion"> Ingrese Direccion:</label><br>
-                <input type="direccion" name="Ingrese Direccion" id="Ingrese direccion" required
-                    pattern="[A-Za-z ]{2,40}" placeholder="Ingrese Direccion"> <br><br>
-                <label class="fuenteBlanca" for="pass">Password:</label><br>
-                <input type="password" id="pass" name="pass" id="Ingrese contraseña" required pattern="[A-Za-z ]{10,40}"
+                    <label class="fuenteBlanca" for="email"> Correo Electronico:</label><br>
+                    <input type="email" name="Email" id="email" required
+                        placeholder="Ingrese Correo"><br><br>
+
+                    <label class="fuenteBlanca" for="Direccion"> Ingrese Direccion:</label><br>
+                    <input type="direccion" name="Ingrese Direccion" id="Ingrese direccion" required
+                        pattern="[A-Za-z ]{2,40}" placeholder="Ingrese Direccion"> <br><br>
+
+                    <label class="fuenteBlanca" for="pwd">Password:</label><br>
+                    <input type="password"  name="pwd" id="pwd" required pattern="[A-Za-z0-9]{10}"
                     placeholder="Ingrese contraseña"><br><br>
 
-                <label class="fuenteBlanca" for="pass">Confirmar Password:</label><br>
-                <input type="password" id="pass" name="pass" id="Confirme contraseña" required
-                    pattern="[A-Za-z ]{10,40}" placeholder="Confirme contraseña"><br><br>
+                    <label class="fuenteBlanca" for="pwd">Confirmar Password:</label><br>
+                    <input type="password" id="pwd" name="pwd"  required
+                        pattern="{10}" placeholder="Confirme contraseña"><br><br>
 
-                <label class="fuenteBlanca" for="Fechadenacimiento">Fecha de Nacimiento:</label><br>
-                <input type="date" id="Fecha" name="Fechadenacimiento" max="2008-12-31" min="1990-01-01"><br><br>
+                    <label class="fuenteBlanca" for="Fechadenacimiento">Fecha de Nacimiento:</label><br>
+                    <input type="date" id="Fecha" name="Fechadenacimiento" max="2008-12-31" min="1990-01-01"><br><br>
 
-                <label class="fuenteBlanca" for="telefono"> Ingrese Numero de telefono:</label><br>
-                <input type="tel" name="telefono" id="telefono" required pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" 
-                placeholder="304-548-2135"><br>
-                <small>Formato: 304-548-2135 </small><br><br>
+                    <label class="fuenteBlanca" for="telefono"> Ingrese Numero de telefono:</label><br>
+                    <input type="tel" name="telefono" id="telefono" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                        placeholder="304-548-2135"><br>
+                    <small>Formato: 304-548-2135 </small><br><br>
 
-                <label class="fuenteBlanca" for="telefono"> Ingrese Numero de telefono:</label><br>
-                <input type="numb" name="Fecha de nacimiento" id="Ingrese fecha de nacimiento" required
-                    pattern="{10,40}" placeholder="Ingrese fecha de nacimiento"> <br><br>
-
-
-                <input type="submit" value="Submit">
-                <input type="reset">
-
-                <h2 class="fuenteH">Registro de nomina</h2>
-                <p> ================ </p>
-                <legend> Registe sus Datos </legend>
-
-                <input list="browsers" name="browsers"><br><br>
-                <label class="fuenteBlanca" for="datemin">Ingrese Fecha de Ingreso</label>
-                <input type="date" id="datemin" name="datemin" min="1960-01-01"><br><br>
-
-                <label class="fuenteBlanca" for="datemax">Ingrese fecha de salida</label>
-                <input type="date" id="datemax" name="datemax" max="2022-10-31">              
+                    <label class="fuenteBlanca" for="telefono"> Ingrese fecha de nacimiento:</label><br>
+                    <input type="numb" name="Fecha de nacimiento" id="Ingrese fecha de nacimiento" required pattern="{10,40}" placeholder="Ingrese fecha de nacimiento"> <br><br>
 
 
-                <datalist id="browsers">
-                    <option value="Piloto">
-                    <option value="Tecnico">
-                    <option value="Auxiliar">
-                    <option value="Director">
-                    <option value="Comisario">
+                    <input type="submit" value="Submit">
+                    <input type="reset">
 
-                </datalist>
-                <br>
-                <br>
+                    <h2 class="fuenteH">Registro de nomina</h2>
+                    <p> ========================== </p>
+                    <legend class="legend1"> Registe sus Datos </legend>
 
-                <textarea name="message" id="" cols="30" rows="10" style="width: 200px; height: 200px; ">Es importante para nosotros coonocer como fue su experiencia trabajando con nosotros </textarea>
-                <br>
-                <input type="submit">
+                    <input list="browsers" name="browsers"><br><br>
+                    <label class="fuenteBlanca" for="datemin">Ingrese Fecha de Ingreso</label><br>
+                    <input type="date" id="datemin" name="datemin" min="1960-01-01"><br><br>
 
-            </fieldset>
-        </form>
-    </form>
+                    <label class="fuenteBlanca" for="datemax">Ingrese fecha de salida</label><br>
+                    <input type="date" id="datemax" name="datemax" max="2022-10-31">
+
+
+                    <datalist id="browsers">
+                        <option value="Piloto">
+                        <option value="Tecnico">
+                        <option value="Auxiliar">
+                        <option value="Director">
+                        <option value="Comisario">
+
+                    </datalist>
+                    <br>
+                    <br>
+
+                    <textarea name="message" id="" cols="30" rows="10"
+                        style="width: 200px; height: 200px; ">Es importante para nosotros coonocer como fue su experiencia trabajando con nosotros </textarea>
+                    <br>
+                    <input type="submit">
+
+                </fieldset>
+            </form>
+        </div>
 
 </body>
 

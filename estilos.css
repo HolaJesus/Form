@@ -11,8 +11,9 @@ body {
     background-color: ;
 } */
 p {
-    color: yellow;
+    color: tomato;
 }
+
 
 /* .formulario{
     background: url(Imagenes/img1.webp);
@@ -24,13 +25,31 @@ p {
 } */
 
 .fuenteBlanca {
-    color: white;
+    color: black;
 }
 
 legend{
     color: aliceblue;
 }
+.legend1{
+    color: red;
+}
 
 small{
     color: tomato;
+    
+}
+
+label{
+    size: 40;
+}
+
+.Registro{
+    border: 10px solid red; 
+    width: 400px;
+    margin: 0% auto;
+    background-color: white;
+    opacity: 89%;
+    text-align: center;
+    font-size: 25px;
 }
