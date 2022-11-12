@@ -1,0 +1,28 @@
+body {
+    background: url(Imagenes/img2.jpg);
+    border-radius: 500px;
+}
+
+.fuenteH, .fuenteH h1{
+    color: red;
+}
+/* 
+.fuenteHfondo{
+    background-color: ;
+} */
+p {
+    color: yellow;
+}
+
+/* .formulario{
+    background: url(Imagenes/img1.webp);
+    height: auto;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.fuenteBlanca {
+    color: white;
+}
